@@ -12960,7 +12960,6 @@ button.bg-black:focus {
   background-color: #fff!important;
     background: url(/web/images/login-left.png);
     background-size: 100%;
-    border: solid 1px red;
     background-repeat: no-repeat;
 }
 
