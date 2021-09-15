@@ -190,7 +190,7 @@ $csrfToken = sha1(rand(4500, 100000) . time(). CLIENT_BASE_URL);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>IceHrm Login</title>
+    <title>InStep Technologies Login</title>
     <link rel="shortcut icon" href="<?=BASE_URL?>image/favicon.ico" type="image/x-icon">
 
     <link href="<?=BASE_URL?>dist/login.css?v=<?=$cssVersion?>" rel="stylesheet">
@@ -230,7 +230,7 @@ $csrfToken = sha1(rand(4500, 100000) . time(). CLIENT_BASE_URL);
                     <h3 class="font-size-7 text-white line-height-reset pb-4 line-height-1p4">
                         <?=empty($companyName) || $companyName === 'Sample Company Pvt Ltd' ? 'IceHrm Login' : $companyName?>
                     </h3>
-                    <p class="mb-0 font-size-4 text-white">Log in to continue to your IceHrm account</p>
+                    <p class="mb-0 font-size-4 text-white">Log in to continue to your InStep account</p>
                     <?php if (false || defined('DEMO_MODE')) {?>
                         <br />
                         <br />
