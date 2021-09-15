@@ -266,7 +266,7 @@ $csrfToken = sha1(rand(4500, 100000) . time(). CLIENT_BASE_URL);
 <!--                        </div>-->
                     <?php }?>
                 </div>
-                <div class="border-top border-default-color-2 mt-auto">
+                <!-- <div class="border-top border-default-color-2 mt-auto">
                     <div class="d-flex mx-n9 pt-6 flex-xs-row flex-column">
                         <div class="pt-5 px-3">
                             <a href="https://www.linkedin.com/company/ice-hrm---human-resource-management" target="_blank">
@@ -311,7 +311,7 @@ $csrfToken = sha1(rand(4500, 100000) . time(). CLIENT_BASE_URL);
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="col-lg-7 col-md-7">
@@ -320,7 +320,8 @@ $csrfToken = sha1(rand(4500, 100000) . time(). CLIENT_BASE_URL);
                 <div class="col-lg-6 col-md-8 col-xs-10">
                     <div class="bg-white-2 h-100 px-11 pt-11 pb-7">
                         <div class="row d-flex justify-content-center">
-                            <img style="max-width: 100%;" src="<?=$logoFileUrl?>"/>
+                            <!-- <img style="max-width: 100%;" src="<?=$logoFileUrl?>"/> -->
+                            <img style="max-width: 100%;" src="./data/logo.png"/>
                         </div>
                         <hr/>
                         <?php if ($gsuiteEnabled) {?>
